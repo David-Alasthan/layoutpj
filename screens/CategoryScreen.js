@@ -9,7 +9,7 @@ function CategoryScreen({navigation}) {
   
     function pressHandler() {
       navigation.navigate("MealOverview", {
-        categoryId: itemData.item.id,
+        categoryId: itemData.item.id,   
       });
     }
       return <CategoryGridTitle title={itemData.item.title} color={itemData.item.color} onPress={pressHandler} />;

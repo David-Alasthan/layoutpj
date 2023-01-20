@@ -3,7 +3,7 @@ class Meal {
         id,
         categoryIds,
         title,
-        affordabale,
+        affordability,
         complexity,
         imageUrl,
         duration,
@@ -17,7 +17,7 @@ class Meal {
         this.id = id;
         this.categoryIds = categoryIds;
         this.title = title;
-        this.affordabale = affordabale;
+        this.affordability = affordability;
         this.complexity = complexity;
         this.imageUrl = imageUrl;
         this.duration = duration;
